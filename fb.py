@@ -119,11 +119,11 @@ driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div[2]/div/div/di
 
 time.sleep(1)
 
-driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[2]/div/div[1]/input').send_keys("gahowav161@jernang.com") #replace with your mail/phone no
+driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[2]/div/div[1]/input').send_keys("daratmp+ule2y@gmail.com") #replace with your mail/phone no
 
 time.sleep(2)
 
-driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[3]/div/div/div[1]/input').send_keys("gahowav161@jernang.com")#again paste the used mail/phone no
+driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[3]/div/div/div[1]/input').send_keys("daratmp+ule2y@gmail.com")#again paste the used mail/phone no
 
 time.sleep(1)
 
@@ -132,17 +132,17 @@ driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div[2]/div/div/di
 time.sleep(2)
 
 dropdown = Select(driver.find_element_by_id("day"))
-dropdown.select_by_value("8")
+dropdown.select_by_value("4")
 
 time.sleep(1)
 
 dropdown = Select(driver.find_element_by_id("month"))
-dropdown.select_by_value("5")
+dropdown.select_by_value("6")
 
 time.sleep(1)
 
 dropdown = Select(driver.find_element_by_id("year"))
-dropdown.select_by_value("1999")
+dropdown.select_by_value("1985")
 
 time.sleep(2)
 
